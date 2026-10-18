@@ -1,16 +1,15 @@
-# React + Vite
+# Task Board — FlyRank Week 3 (Frontend AI Engineering)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A small React + Vite task board built independently using an AI assistant for the whole
+implementation: three columns (To Do / In Progress / Done), add/edit/delete tasks, move a
+task between columns, priority tagging, search, filtering, and localStorage persistence.
 
-Currently, two official plugins are available:
+See [AI_DEVELOPMENT_LOG.md](./AI_DEVELOPMENT_LOG.md) for the prompts used, how AI assisted
+throughout, and the manual review/corrections made on top of the generated code.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Run it locally
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+npm install
+npm run dev
+```
