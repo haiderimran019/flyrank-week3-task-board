@@ -2,6 +2,17 @@
   box-sizing: border-box;
 }
 
+/* The app is always dark, so override the light-mode heading colour
+   and frame border inherited from the Vite starter styles in index.css. */
+#root {
+  border-inline: none;
+}
+
+.app h1,
+.app h2 {
+  color: #e9edf1;
+}
+
 body {
   margin: 0;
   background: #0f1115;
